@@ -1,0 +1,12 @@
+POST http://localhost:3000/orders/create
+Content-Type: application/json
+
+{
+  "userId": "507f1f77bcf86cd799439011",
+  "products": [
+    { "productId": "1", "qty": 2 },
+    { "productId": "2", "qty": 1 }
+  ],
+  "totalAmount": 150.00,
+  "paymentMethod": "boleto"
+}
