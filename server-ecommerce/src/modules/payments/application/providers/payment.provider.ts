@@ -1,9 +1,13 @@
 import { Provider } from '@nestjs/common';
+import { HttpService } from '@nestjs/axios';
 import { PaymentService } from '../services/payment.service';
 
 export const makePaymentProviders = (): Provider[] => [
   {
     provide: 'PROCESS_PAYMENT',
-    useClass: PaymentService,
+    useFactory: (httpService: HttpService) => {
+      return new PaymentService(httpService);
+    },
+    inject: [HttpService],
   },
 ];
