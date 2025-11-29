@@ -1,21 +1,21 @@
 [
   {
     "payment": {
-      "transactionId": "ps4cxhmbnda",
+      "transactionId": "df2x9zgx2of",
       "amount": 1300,
-      "paymentMethod": "PIX",
-      "qrCode": "fake_qr_code_322cc3a0e5c5ac93e0376789",
-      "status": "pending"
+      "paymentMethod": "BOLETO",
+      "boletoNumber": "23793.38128 60001.000136 04000.123400 1 98760000015000",
+      "status": "approved"
     },
     "callbackUrl": "http://localhost:3000/payments/webhook"
   },
   {
     "payment": {
-      "transactionId": "wtn2twi3t1p",
-      "amount": 1300,
-      "paymentMethod": "BOLETO",
-      "boletoNumber": "23793.38128 60001.000136 04000.123400 1 98760000015000",
-      "status": "pending"
+      "transactionId": "j5wd4ciw62",
+      "amount": 540,
+      "paymentMethod": "PIX",
+      "qrCode": "fake_qr_code_d550b0a3762c3124074409f7",
+      "status": "approved"
     },
     "callbackUrl": "http://localhost:3000/payments/webhook"
   }

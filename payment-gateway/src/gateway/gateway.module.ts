@@ -4,9 +4,10 @@ import { ScheduleModule } from '@nestjs/schedule';
 import { PaymentRepository } from './services/payment-repository';
 import { ProcessPaymentService } from './services/process-payment.service';
 import { GatewayController } from './gateway.controller';
+import { HttpModule } from '@nestjs/axios';
 
 @Module({
-  imports: [ScheduleModule.forRoot()],
+  imports: [HttpModule, ScheduleModule.forRoot()],
   controllers: [GatewayController],
   providers: [SavePaymentService, PaymentRepository, ProcessPaymentService],
 })
