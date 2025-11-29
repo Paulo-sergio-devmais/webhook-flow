@@ -36,7 +36,7 @@ export class ProcessPaymentService {
 
         payment.status = 'approved';
 
-        //await this.httpService.post(this.WEBHOOK_URL, payment).toPromise();
+        await this.httpService.post(this.WEBHOOK_URL, payment).toPromise();
       } catch (error) {
         throw new Error('Error processing payment: ' + error);
       }

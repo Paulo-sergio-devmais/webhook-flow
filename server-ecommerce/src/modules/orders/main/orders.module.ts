@@ -4,10 +4,11 @@ import { CreateOrderUseCase } from '../application/usecases/create-order.usecase
 import { makeOrdersRepositoriesProviders } from '../application/providers/orders.providers';
 import { OrdersRepository } from '../infra/repository/orders.repository';
 import { PaymentModule } from 'src/modules/payments/main/paymnet.module';
+import { WebhookReturnController } from '../presentation/controllers/webhook-return.controller';
 
 @Module({
   imports: [PaymentModule],
-  controllers: [CreateOrderController],
+  controllers: [CreateOrderController, WebhookReturnController],
   providers: [
     CreateOrderUseCase,
     OrdersRepository,

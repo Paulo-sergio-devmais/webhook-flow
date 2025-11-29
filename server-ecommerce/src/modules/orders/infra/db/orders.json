@@ -1,7 +1,8 @@
 [
   {
-    "id": "0774b16b5164a032feb51ac0",
-    "items": [
+    "id": "0ee0ac59bd957f8c9229867c",
+    "userId": "507f1f77bcf86cd799439011",
+    "products": [
       {
         "productId": "1",
         "qty": 2
@@ -13,7 +14,69 @@
     ],
     "totalAmount": 1300,
     "paymentMethod": "boleto",
-    "startus": "PENDING",
-    "createdAt": "2025-11-29T16:15:04.698Z"
+    "status": "PENDING",
+    "createdAt": "2025-11-29T19:49:03.519Z"
+  },
+  {
+    "id": "d550b0a3762c3124074409f7",
+    "userId": "507f1f77bcf86cd799439011",
+    "products": [
+      {
+        "productId": "1",
+        "qty": 2
+      },
+      {
+        "productId": "2",
+        "qty": 1
+      }
+    ],
+    "totalAmount": 540,
+    "paymentMethod": "pix",
+    "status": "PENDING",
+    "createdAt": "2025-11-29T19:58:42.017Z"
+  },
+  {
+    "id": "51408be2411c702f691c3109",
+    "userId": "507f1f77bcf86cd799439011",
+    "products": [
+      {
+        "productId": "1",
+        "qty": 2
+      },
+      {
+        "productId": "2",
+        "qty": 1
+      },
+      {
+        "productId": "3",
+        "qty": 3
+      }
+    ],
+    "totalAmount": 1200,
+    "paymentMethod": "credit_card",
+    "status": "PENDING",
+    "createdAt": "2025-11-29T20:40:07.701Z"
+  },
+  {
+    "id": "76f93285b621b576e52602e4",
+    "userId": "507f1f77bcf86cd799439011",
+    "products": [
+      {
+        "productId": "1",
+        "qty": 2
+      },
+      {
+        "productId": "2",
+        "qty": 1
+      },
+      {
+        "productId": "3",
+        "qty": 3
+      }
+    ],
+    "totalAmount": 1300,
+    "paymentMethod": "credit_card",
+    "status": "PENDING",
+    "createdAt": "2025-11-29T20:42:13.325Z"
   }
 ]

@@ -5,8 +5,9 @@ Content-Type: application/json
   "userId": "507f1f77bcf86cd799439011",
   "products": [
     { "productId": "1", "qty": 2 },
-    { "productId": "2", "qty": 1 }
+    { "productId": "2", "qty": 1 },
+    { "productId": "3", "qty": 3 }
   ],
-  "totalAmount": 150.00,
-  "paymentMethod": "pix"
+  "totalAmount": 1200.00,
+  "paymentMethod": "credit_card"
 }

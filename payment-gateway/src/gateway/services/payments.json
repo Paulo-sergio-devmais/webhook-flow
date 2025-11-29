@@ -18,5 +18,27 @@
       "status": "approved"
     },
     "callbackUrl": "http://localhost:3000/payments/webhook"
+  },
+  {
+    "payment": {
+      "transactionId": "y2898x18bp",
+      "amount": 1200,
+      "paymentMethod": "CC",
+      "cardToken": "fake_card_token_51408be2411c702f691c3109",
+      "paymentSessionId": "ps_njkfvysc2s8",
+      "status": "approved"
+    },
+    "callbackUrl": "http://localhost:3000/payments/webhook"
+  },
+  {
+    "payment": {
+      "transactionId": "2b99r53q8ui",
+      "amount": 1300,
+      "paymentMethod": "CC",
+      "cardToken": "fake_card_token_76f93285b621b576e52602e4",
+      "paymentSessionId": "ps_5ckasf3bxgi",
+      "status": "approved"
+    },
+    "callbackUrl": "http://localhost:3000/payments/webhook"
   }
 ]
